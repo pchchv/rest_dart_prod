@@ -11,3 +11,9 @@ class Product {
     'price': price,
   };
 }
+
+// Inmemory database.
+final List<Product> products = [
+  Product(id: 1, name: 'Dart Programming Book', price: 49.99),
+  Product(id: 2, name: 'Flutter T-shirt', price: 29.29),
+];
